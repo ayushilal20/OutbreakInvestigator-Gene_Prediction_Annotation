@@ -7,6 +7,8 @@ conda activate gene_pred
 conda install -c bioconda prodigal
 conda deactivate
 
+# env for bakta
+
 # env for amrfinder
 conda create -n amrfinder
 conda activate amrfinder
