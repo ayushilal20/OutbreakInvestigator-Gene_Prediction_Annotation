@@ -33,7 +33,7 @@ conda deactivate
 Environment for Bakta: 
 ```python
 # env for bakta
-conda create bakta
+conda create -n bakta
 conda activate bakta
 conda install -c conda-forge -c bioconda bakta
 bakta_db download --output <output-path> --type full
