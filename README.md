@@ -37,7 +37,8 @@ cd ..
 ```
 
 ## Commandline usage for pipeline.sh
-After create and install all the environments required, run the pipeline.sh.
+After create and install all the environments required, download pathofact.sh in the repository.
+Then run the pipeline.sh.
 
 ```
 sh pipeline.sh <input_dir> <output_dir>
