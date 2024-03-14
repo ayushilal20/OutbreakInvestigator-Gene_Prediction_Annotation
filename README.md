@@ -65,7 +65,7 @@ The pipeline takes the input as the fasta files from the assembly and those are 
 sh pipeline.sh [input_dir] [output_dir]
 ```
 
-The pipeline fully automates the cumbersome process and the generates the required files that will help in taxonomic classification and comparative genomics.  
+The pipeline fully automates the cumbersome process and it generates the required files that will help in taxonomic classification and comparative genomics.  
 
 
 
