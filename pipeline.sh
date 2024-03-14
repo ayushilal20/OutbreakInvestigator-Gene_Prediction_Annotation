@@ -2,25 +2,25 @@
 source ~/.bash_profile
 
 #env for prodigal
-conda create -n gene_pred
-conda activate gene_pred
-conda install -c bioconda prodigal
-conda deactivate
+# conda create -n gene_pred
+# conda activate gene_pred
+# conda install -c bioconda prodigal
+# conda deactivate
 
 # env for bakta
 
 # env for amrfinder
-conda create -n amrfinder
-conda activate amrfinder
-mamba install -c bioconda ncbi-amrfinderplus
-conda deactivate
+# conda create -n amrfinder
+# conda activate amrfinder
+# mamba install -c bioconda ncbi-amrfinderplus
+# conda deactivate
 
 #env for pathofact
-git lfs install
-git clone -b master --recursive https://git-r3lab.uni.lu/laura.denies/PathoFact.git
-cd PathoFact
-conda env create -f=envs/PathoFact.yaml
-cd ..
+# git lfs install
+# git clone -b master --recursive https://git-r3lab.uni.lu/laura.denies/PathoFact.git
+# cd PathoFact
+# conda env create -f=envs/PathoFact.yaml
+# cd ..
 
 # commandline usage: sh pipeline.sh [input_dir] [output_dir]
 input_dir="$1"
