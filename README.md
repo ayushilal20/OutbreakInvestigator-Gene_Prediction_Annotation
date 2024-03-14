@@ -35,3 +35,9 @@ cd PathoFact
 conda env create -f=envs/PathoFact.yaml
 cd ..
 ```
+
+## Commandline usage for pipeline.sh
+
+```
+sh pipeline.sh <input_dir> <output_dir>
+```
