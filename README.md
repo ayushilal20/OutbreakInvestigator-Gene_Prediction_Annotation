@@ -12,7 +12,7 @@ conda deactivate
 
 Create environment for bakta
 ```
-conda create bakta
+conda create -n bakta
 conda activate bakta
 conda install -c conda-forge -c bioconda bakta
 bakta_db download --output <output-path> --type full
