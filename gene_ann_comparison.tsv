@@ -1,0 +1,5 @@
+TOOL	TIME_TAKEN/ISOLATE	AVG. % MEMORY USED	Database (for CDS)	Usability	Database download required	Database size
+Prokka	3 mins 27 secs	3.17	UniProtKB/Swiss-Prot	CLI easy to use	Yes	0.6 GB
+Egg-nog Mapper	4 mins	25.65	eggNOG database	CLI interface not used too large sized database; Web interface easy to use	No (web interface used)	NA
+RAST	4 mins 16 secs	14.2	 relies on its own curated SEED database	Easy to use Webpage	No; Web-based	NA
+Bakta	10 mins 35 secs	44.02	"RefSeq, UniRef100, and UniParc"	CLI interface easy to use; also available as a webpage	Yes	40 GB

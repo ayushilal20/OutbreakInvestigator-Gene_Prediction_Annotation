@@ -1,0 +1,5 @@
+Tool	Total_memory_usage_(kb)  	Time_per_file_(sec)	Memory_(kb)	Mean_number_of_predicted_genes	Mean_Precision	Mean_Recall 
+GeneMarkS	"3,748"	42	"127,276"	3168	0.777	0.829
+Metageneannotator	"3,792"	1	"32,604"	NA	NA	NA
+MMSeqs2	"3,808"	8	"8,489,580"	237	0.145	0.016
+Prodigal	"3,836"	2	"211,220"	3177	0.775	0.829
