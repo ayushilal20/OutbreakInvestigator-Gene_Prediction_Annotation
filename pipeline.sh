@@ -52,7 +52,7 @@ for file in "$input_dir"/*; do
 	#annotation with bakta
 	conda activate bakta
 	bakta --db ~/bakta/db/ \
-	"$isolate/filtered_contigs.fa" \
+	"$isolate/filtered_contigs.fa.gz" \
 	--output "$output_dir/bakta/bakta_output" \
 	--threads 8 \
 	> "$output_dir/bakta/bakta_output.log" \
