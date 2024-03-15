@@ -56,6 +56,9 @@ cd PathoFact
 conda env create -f=envs/PathoFact.yaml
 cd ..
 ```
+## Preparing the assembly files for bakta
+Bakta requires assembly files in zipped fasta format. You can use the provided Python script called gzip_it to gzip the .fa assembly files.
+
 ## Pipeline:
 The pipeline takes the input as the fasta files from the assembly and those are used by Prodigal, Bakta and PathOFact. The prodigal generates the faa and gff files that are used by AMR for determining the genes responsible for pathogenicity.
 
